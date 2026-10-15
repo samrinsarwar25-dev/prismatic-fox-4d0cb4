@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank you | Little Learners Books</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #fff8e7; color: #333; margin: 0; display: flex; min-height: 100vh; align-items: center; justify-content: center; }
+    .card { background: #fff; max-width: 420px; margin: 16px; padding: 28px 24px; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,.1); text-align: center; }
+    a.btn { display: inline-block; margin-top: 12px; padding: 12px 22px; background: #ff7a59; color: #fff; border-radius: 10px; text-decoration: none; font-weight: 600; }
+    small { display: block; margin-top: 18px; color: #777; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Thank you! 🎉</h1>
+    <p id="msg">Preparing your download...</p>
+    <div id="action"></div>
+    <small>We have also emailed the PDF to you. Check your spam folder if you don't see it.</small>
+  </div>
+  <script>
+    (async () => {
+      const msg = document.getElementById("msg");
+      const action = document.getElementById("action");
+      try {
+        const res = await fetch("/.netlify/functions/download" + location.search);
+        if (!res.ok) throw new Error(await res.text());
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const cd = res.headers.get("Content-Disposition") || "";
+        const m = cd.match(/filename="(.+?)"/);
+        const name = m ? m[1] : "book.pdf";
+        msg.textContent = "Your book is ready.";
+        action.innerHTML = '<a class="btn" href="' + url + '" download="' + name + '">Download PDF</a>';
+        const a = document.createElement("a");
+        a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+      } catch (e) {
+        msg.textContent = "We could not start the download here, but your PDF is on its way to your email. If it does not arrive in a few minutes, message us and we will send it.";
+      }
+    })();
+  </script>
+</body>
+</html>
