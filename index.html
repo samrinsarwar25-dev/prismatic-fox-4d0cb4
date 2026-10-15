@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Learners Studio | Kids' Books &amp; Worksheets (PDF)</title>
+<meta name="description" content="Printable maths workbooks and picture books for little learners. Pay securely with UPI, cards or netbanking and get your PDF.">
+<meta property="og:title" content="Little Learners Studio | Kids' Books & Worksheets">
+<meta property="og:description" content="Printable maths workbooks and picture books for little learners. Instant PDF books from Rs 99.">
+<meta property="og:image" content="img/maths-colour-cover.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%AD%90%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#26335a; --navy-2:#34457a; --gold:#f5b942; --cream:#fffaf0; --paper:#ffffff;
+    --pink:#e0607a; --teal:#2f9aa3; --ink:#26335a; --muted:#5e6783; --line:#eadfc8;
+    --radius:20px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:'Nunito',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55;-webkit-text-size-adjust:100%}
+  h1,h2,h3{font-family:'Fredoka','Nunito',system-ui,sans-serif;line-height:1.15;margin:0}
+  a{color:inherit}
+  .wrap{width:min(1100px,100% - 32px);margin-inline:auto}
+
+  /* header */
+  header{position:sticky;top:0;z-index:20;background:rgba(255,250,240,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Fredoka',sans-serif;font-weight:700;font-size:1.15rem}
+  .brand .logo{width:38px;height:38px;border-radius:12px;background:var(--navy);display:grid;place-items:center;color:var(--gold);font-size:1.3rem}
+  nav a{text-decoration:none;font-weight:700;font-size:.95rem;margin-left:18px;color:var(--muted)}
+  nav a:hover{color:var(--navy)}
+  @media(max-width:560px){nav a:not(.shop){display:none}}
+
+  /* hero */
+  .hero{padding:44px 0 28px}
+  .hero-grid{display:grid;gap:28px;align-items:center}
+  @media(min-width:820px){.hero-grid{grid-template-columns:1.15fr .85fr}}
+  .eyebrow{display:inline-block;background:#fdeec7;color:#7a5600;font-weight:800;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px}
+  .hero h1{font-size:clamp(2rem,6vw,3.4rem);margin:14px 0 12px}
+  .hero h1 span{color:var(--pink)}
+  .hero p{font-size:1.1rem;color:var(--muted);max-width:34em;margin:0 0 22px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--navy);color:#fff;text-decoration:none;font-weight:800;font-size:1.02rem;padding:14px 22px;border-radius:14px;border:2px solid var(--navy);transition:transform .12s ease, background .12s ease}
+  .btn:hover{background:var(--navy-2);transform:translateY(-1px)}
+  .btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+  .btn.ghost{background:transparent;color:var(--navy)}
+  .btn.ghost:hover{background:#fff}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px}
+  .hero-art{position:relative;justify-self:center;width:min(340px,80%)}
+  .hero-art img{width:100%;border-radius:18px;box-shadow:0 22px 40px -18px rgba(38,51,90,.5);transform:rotate(2.5deg);border:6px solid #fff}
+  .hero-art .tag{position:absolute;left:-12px;bottom:26px;background:var(--gold);color:var(--navy);font-weight:800;padding:8px 14px;border-radius:12px;transform:rotate(-4deg);box-shadow:0 8px 18px -8px rgba(0,0,0,.35)}
+
+  .trust{display:flex;flex-wrap:wrap;gap:10px 22px;padding:16px 0 6px;color:var(--muted);font-weight:700;font-size:.95rem}
+  .trust span::before{content:"\2713\00a0";color:var(--teal);font-weight:800}
+
+  section{padding:40px 0}
+  .sec-head{margin-bottom:22px}
+  .sec-head h2{font-size:clamp(1.6rem,4.5vw,2.2rem)}
+  .sec-head p{margin:6px 0 0;color:var(--muted)}
+
+  /* products */
+  .grid{display:grid;gap:22px}
+  @media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr)}}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;box-shadow:0 10px 26px -20px rgba(38,51,90,.5)}
+  .cover{aspect-ratio:3/4;border-radius:14px;overflow:hidden;background:#f3ead6;position:relative;border:1px solid var(--line)}
+  .cover img{width:100%;height:100%;object-fit:cover;display:block}
+  .cover.story{background:linear-gradient(160deg,#ffe3ea,#fff4d8 55%,#ffe9c2)}
+  .cover.story img{object-fit:contain}
+  .cover.story .inner{font-family:'Fredoka',sans-serif}
+  .cover.story .heart{font-size:2.4rem}
+  .cover.story .t{font-size:1.9rem;font-weight:700;color:var(--pink);line-height:1.05;margin:8px 0}
+  .cover.story .s{color:var(--navy);font-weight:600}
+  .cover.soon{display:grid;place-items:center;background:repeating-linear-gradient(45deg,#f6efde,#f6efde 12px,#f1e8d2 12px,#f1e8d2 24px);text-align:center;color:var(--muted);font-family:'Fredoka',sans-serif;font-size:1.3rem}
+  .badge{position:absolute;bottom:10px;right:10px;box-shadow:0 4px 10px -4px rgba(0,0,0,.4);background:var(--navy);color:#fff;font-weight:800;font-size:.75rem;padding:5px 10px;border-radius:999px;letter-spacing:.03em}
+  .badge.pink{background:var(--pink)}
+  .card h3{font-size:1.3rem;margin:14px 0 4px}
+  .card .kicker{font-size:.85rem;font-weight:800;color:var(--teal);text-transform:uppercase;letter-spacing:.05em}
+  .card p{margin:6px 0 12px;color:var(--muted);font-size:.98rem}
+  .card ul{margin:0 0 14px;padding-left:18px;color:var(--muted);font-size:.95rem}
+  .card ul li{margin:2px 0}
+  .buy{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .price{font-family:'Fredoka',sans-serif;font-size:1.7rem;font-weight:700}
+  .price small{font-family:'Nunito';font-size:.8rem;font-weight:700;color:var(--muted);display:block;margin-top:-2px}
+  .buy .btn{padding:12px 18px}
+  .btn.disabled{background:#d9d2c0;border-color:#d9d2c0;color:#6c6757;cursor:not-allowed;pointer-events:none}
+
+  /* peek inside */
+  .peek{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .peek figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px;box-shadow:0 10px 22px -18px rgba(38,51,90,.5)}
+  .peek img{width:100%;display:block;border-radius:10px;border:1px solid #efe6d1}
+  .peek figcaption{font-weight:700;font-size:.9rem;color:var(--muted);padding:8px 4px 2px}
+
+.peek-story{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:760px}
+  .peek-story figure{padding:8px}
+
+  /* steps */
+  .steps{display:grid;gap:16px;counter-reset:s}
+  @media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+  .step{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;position:relative}
+  .step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--gold);color:var(--navy);font-family:'Fredoka';font-weight:700;font-size:1.2rem;margin-bottom:10px}
+  .step h3{font-size:1.15rem;margin-bottom:4px}
+  .step p{margin:0;color:var(--muted)}
+
+  /* faq + policies */
+  details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:12px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:1.3rem;line-height:1;color:var(--pink)}
+  details[open] summary::after{content:"\2212"}
+  details p{margin:10px 0 0;color:var(--muted)}
+  .policy{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-bottom:16px}
+  .policy h3{font-size:1.25rem;margin-bottom:8px}
+  .policy p,.policy li{color:var(--muted)}
+  .policy ul{padding-left:20px;margin:8px 0 0}
+
+  footer{background:var(--navy);color:#dfe5fb;padding:34px 0 40px;margin-top:20px}
+  footer a{color:#fff}
+  .foot{display:grid;gap:22px}
+  @media(min-width:760px){.foot{grid-template-columns:1.4fr 1fr 1fr}}
+  footer h4{margin:0 0 8px;font-family:'Fredoka';font-size:1.1rem;color:var(--gold)}
+  footer p{margin:4px 0}
+  .copy{margin-top:26px;padding-top:16px;border-top:1px solid rgba(255,255,255,.18);font-size:.9rem;color:#b9c3ea}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Little Learners Studio home"><span class="logo">&#9733;</span>Little Learners Studio</a>
+    <nav>
+      <a href="#inside">Peek inside</a>
+      <a href="#faq">Help</a>
+      <a href="#contact">Contact</a>
+      <a class="shop" href="#books">Shop books</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Printable PDF books &bull; Instant download</span>
+        <h1>Books that make little learners <span>love learning</span></h1>
+        <p>Colourful maths workbooks and a heartwarming picture book, made for Upper Kindergarten children. Big print, big writing spaces and happy pictures. Pay securely and print at home.</p>
+        <div class="cta-row">
+          <a class="btn" href="#books">Shop books</a>
+          <a class="btn ghost" href="#inside">Peek inside</a>
+        </div>
+        <div class="trust">
+          <span>Pay with UPI, cards or netbanking</span>
+          <span>Print as often as you like at home</span>
+          <span>Answer key included</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="img/maths-colour-cover.jpg" alt="Cover of My Big Maths Workbook for UKG">
+        <div class="tag">From &#8377;99</div>
+      </div>
+    </div>
+  </div>
+
+  <section id="books">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Our books</h2>
+        <p>Every book is a PDF you can print on A4 paper, as many times as you need for your own child or class.</p>
+      </div>
+      <div class="grid">
+
+        <article class="card">
+          <div class="cover">
+            <img src="img/maths-colour-cover.jpg" alt="My Big Maths Workbook, UKG, colour edition" loading="lazy">
+            <span class="badge">Colour</span>
+          </div>
+          <div class="kicker">Maths &bull; Age 4&ndash;6</div>
+          <h3>My Big Maths Workbook (Colour)</h3>
+          <p>42 bright pages for UKG with large print and roomy writing and drawing boxes.</p>
+          <ul>
+            <li>Number tracing 1&ndash;50 and number names</li>
+            <li>Add, subtract, shapes, time and Indian money</li>
+            <li>Certificate and answer key included</li>
+          </ul>
+          <div class="buy">
+            <div class="price">&#8377;129<small>PDF download</small></div>
+            <a class="btn" href="https://rzp.io/rzp/XWGq4Uw" target="_blank" rel="noopener">Buy now</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cover">
+            <img src="img/maths-bw-cover.jpg" alt="My Big Maths Workbook, UKG, black and white edition" loading="lazy">
+            <span class="badge">Black &amp; White</span>
+          </div>
+          <div class="kicker">Maths &bull; Age 4&ndash;6</div>
+          <h3>My Big Maths Workbook (Black &amp; White)</h3>
+          <p>The same 42 pages in clean outlines. Light on ink, and children can colour the pictures themselves.</p>
+          <ul>
+            <li>Includes a double-sided print version</li>
+            <li>Perfect for classrooms and tuition</li>
+            <li>Certificate and answer key included</li>
+          </ul>
+          <div class="buy">
+            <div class="price">&#8377;99<small>PDF download</small></div>
+            <a class="btn" href="https://rzp.io/rzp/DC0be8hc" target="_blank" rel="noopener">Buy now</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cover story">
+            <img src="img/daddys-little-girl-cover.jpg" alt="Cover of Daddy's Little Girl, a story of Mia and her Daddy" loading="lazy">
+            <span class="badge pink">Storybook</span>
+          </div>
+          <div class="kicker">Picture book &bull; Bedtime reading</div>
+          <h3>Daddy's Little Girl</h3>
+          <p>A warm, happy story about the special bond between little Mia and her Daddy. 13 pages of soft, full-colour illustrations to read together.</p>
+          <ul>
+            <li>Read on a phone or tablet, or print it</li>
+            <li>Written by Dr. Samrin Sarwar</li>
+            <li>Lovely for bedtime and gifting</li>
+          </ul>
+          <div class="buy">
+            <div class="price">&#8377;99<small>PDF download</small></div>
+            <a class="btn" href="https://rzp.io/rzp/yXoUYanM" target="_blank" rel="noopener">Buy now</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="grid" style="margin-top:22px">
+        <!-- PHONICS BOOK: hidden as "Coming soon". When the book is ready, replace the <p> below with a Buy button:
+             <a class="btn" href="https://rzp.io/rzp/0xaabPD" target="_blank" rel="noopener">Buy now</a> -->
+        <article class="card" style="grid-column:1/-1;flex-direction:row;align-items:center;gap:16px">
+          <div class="cover soon" style="width:110px;aspect-ratio:3/4;flex:none"><span>Soon</span></div>
+          <div>
+            <div class="kicker">Coming soon</div>
+            <h3 style="margin-top:4px">Phonics Book</h3>
+            <p style="margin:4px 0 0">A fun phonics book for early readers is on its way. Check back soon.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="inside">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Peek inside the maths workbook</h2>
+        <p>Big numbers, clear pictures and plenty of space to write and draw.</p>
+      </div>
+      <div class="peek">
+        <figure><img src="img/sample-1.jpg" alt="Sample page: counting tens and ones" loading="lazy"><figcaption>Count tens and ones</figcaption></figure>
+        <figure><img src="img/sample-2.jpg" alt="Sample page: picture addition" loading="lazy"><figcaption>Picture addition</figcaption></figure>
+        <figure><img src="img/sample-3.jpg" alt="Sample page: telling the time" loading="lazy"><figcaption>What time is it?</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="story-inside" style="padding-top:8px">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Peek inside Daddy's Little Girl</h2>
+        <p>A few pages from the story.</p>
+      </div>
+      <div class="peek peek-story">
+        <figure><img src="img/story-1.jpg" alt="Story page: Mia and her Daddy on the sofa" loading="lazy"></figure>
+        <figure><img src="img/story-2.jpg" alt="Story page: Mia holds Daddy's hand on the way to the clinic" loading="lazy"></figure>
+        <figure><img src="img/story-3.jpg" alt="Story page: Every moment with Daddy" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><h2>How it works</h2></div>
+      <div class="steps">
+        <div class="step"><h3>Choose a book</h3><p>Pick the book you like and tap <b>Buy now</b>.</p></div>
+        <div class="step"><h3>Pay securely</h3><p>Pay with UPI, card or netbanking on Razorpay's secure payment page. Enter your email and phone number.</p></div>
+        <div class="step"><h3>Get your PDF</h3><p>We send your book to the email or WhatsApp number you give at checkout. Then print and enjoy!</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head"><h2>Questions</h2></div>
+      <details><summary>What age are the maths workbooks for?</summary><p>They are made for Upper Kindergarten (UKG), about ages 4 to 6, with large print and simple instructions. Sit with your child for the first few pages.</p></details>
+      <details><summary>How do I print the workbook?</summary><p>Print on A4 paper at Actual size (100%). For the double-sided file, choose "flip on long edge". The blank backs stop pencil and crayon showing through.</p></details>
+      <details><summary>Is this a physical book?</summary><p>No. All our books are digital PDF files that you print at home or read on a screen. Nothing is shipped.</p></details>
+      <details><summary>I paid but did not get my book. What should I do?</summary><p>Please email or WhatsApp us with the email address or phone number you used and your payment confirmation. We will sort it out quickly.</p></details>
+      <details><summary>Can I share the PDF with friends or other classes?</summary><p>One purchase is for one family or one teacher. Please do not share or resell the files. If your school wants a multi-user licence, contact us.</p></details>
+    </div>
+  </section>
+
+  <section id="policies">
+    <div class="wrap">
+      <div class="sec-head"><h2>Policies</h2></div>
+
+      <div class="policy" id="terms">
+        <h3>Terms of use</h3>
+        <p>&copy; 2026 Little Learners Studio. All rights reserved. Our books are licensed for personal and classroom use only.</p>
+        <ul>
+          <li>You may print as many copies as you need for your own child or your own class.</li>
+          <li>You may not sell, resell, share, upload or post the files, or any page of them, online or offline.</li>
+          <li>You may not remove the brand name or copyright notice, or claim the work as your own.</li>
+          <li>One purchase is licensed for one family or one teacher.</li>
+        </ul>
+      </div>
+
+      <div class="policy" id="refunds">
+        <h3>Refund and cancellation policy</h3>
+        <p>Our products are digital files delivered after payment, so we are not able to cancel an order or offer a refund once the file has been delivered. If your file is damaged, will not open, or is not the book you bought, contact us within 7 days of purchase and we will send a working copy or refund you. If you were charged twice for the same book, we will refund the extra payment.</p>
+      </div>
+
+      <div class="policy" id="privacy">
+        <h3>Privacy policy</h3>
+        <p>We collect only your name, email address and phone number, which you enter on the Razorpay payment page, to deliver your book and answer your questions. Payments are processed by Razorpay; we never see or store your card, UPI or bank details. We do not sell or share your information with anyone else.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>Little Learners Studio</h4>
+        <p>Printable books and worksheets for little learners.</p>
+      </div>
+      <div>
+        <h4>Contact us</h4>
+        <p><a href="mailto:samrin.sarwar25@gmail.com">samrin.sarwar25@gmail.com</a></p>
+        <p><a href="tel:+918789865656">+91 87898 65656</a></p>
+        <p>Ranchi, Jharkhand 834008</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <p><a href="#books">Shop books</a></p>
+        <p><a href="#terms">Terms of use</a></p>
+        <p><a href="#refunds">Refund policy</a></p>
+        <p><a href="#privacy">Privacy policy</a></p>
+      </div>
+    </div>
+    <div class="copy">&copy; 2026 Little Learners Studio. All rights reserved. Payments are processed securely by Razorpay.</div>
+  </div>
+</footer>
+
+</body>
+</html>
