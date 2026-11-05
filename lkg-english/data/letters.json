@@ -1,0 +1,120 @@
+{
+  "letters": [
+    {
+      "id": "A",
+      "uppercase": "A",
+      "lowercase": "a",
+      "sound": "/æ/ (like 'apple')",
+      "words": ["Apple", "Ant", "Arrow", "Alligator", "Airplane"],
+      "description": "The first letter of the alphabet",
+      "funFact": "Apple starts with A! 🍎"
+    },
+    {
+      "id": "B",
+      "uppercase": "B",
+      "lowercase": "b",
+      "sound": "/b/ (like 'ball')",
+      "words": ["Ball", "Ball", "Butterfly", "Bear", "Banana"],
+      "description": "A bouncy letter that starts with a bump",
+      "funFact": "Ball bounces - B bounces too! ⚽"
+    },
+    {
+      "id": "C",
+      "uppercase": "C",
+      "lowercase": "c",
+      "sound": "/k/ or /s/ (like 'cat' or 'circle')",
+      "words": ["Cat", "Car", "Cake", "Cow", "Candle"],
+      "description": "A curvy letter shaped like a moon",
+      "funFact": "C looks like a moon 🌙"
+    },
+    {
+      "id": "D",
+      "uppercase": "D",
+      "lowercase": "d",
+      "sound": "/d/ (like 'dog')",
+      "words": ["Dog", "Duck", "Door", "Drum", "Diamond"],
+      "description": "D has a tall stick with a round belly",
+      "funFact": "D has a round belly like a dog's toy! 🐕"
+    },
+    {
+      "id": "E",
+      "uppercase": "E",
+      "lowercase": "e",
+      "sound": "/ɛ/ (like 'egg')",
+      "words": ["Egg", "Elephant", "Eye", "Ear", "Eight"],
+      "description": "Three lines stacked on one pole",
+      "funFact": "E has three open arms to hug! 🤗"
+    },
+    {
+      "id": "F",
+      "uppercase": "F",
+      "lowercase": "f",
+      "sound": "/f/ (like 'fish')",
+      "words": ["Fish", "Fire", "Flower", "Finger", "Fan"],
+      "description": "Two arms reaching out on a stick",
+      "funFact": "F waves like a flag! 🚩"
+    },
+    {
+      "id": "G",
+      "uppercase": "G",
+      "lowercase": "g",
+      "sound": "/g/ (like 'goat')",
+      "words": ["Goat", "Grapes", "Gift", "Girl", "Game"],
+      "description": "C with a little tail",
+      "funFact": "G is like C with a tail! 🐐"
+    },
+    {
+      "id": "H",
+      "uppercase": "H",
+      "lowercase": "h",
+      "sound": "/h/ (like 'hat')",
+      "words": ["Hat", "Hand", "Heart", "House", "Happy"],
+      "description": "Two poles with a bridge",
+      "funFact": "H is like a bridge between two towers! 🌉"
+    },
+    {
+      "id": "I",
+      "uppercase": "I",
+      "lowercase": "i",
+      "sound": "/aɪ/ (like 'ice')",
+      "words": ["Ice", "Igloo", "Insect", "Iron", "Island"],
+      "description": "A straight stick, sometimes with a dot",
+      "funFact": "I is the shortest letter! 🎯"
+    },
+    {
+      "id": "J",
+      "uppercase": "J",
+      "lowercase": "j",
+      "sound": "/dʒ/ (like 'jump')",
+      "words": ["Jump", "Jellyfish", "Jet", "Jar", "Jigsaw"],
+      "description": "Like I but with a hook at the bottom",
+      "funFact": "J jumps with a hook! 🦘"
+    }
+  ],
+  "phonics": [
+    {
+      "id": "short-vowels",
+      "title": "Short Vowels",
+      "description": "A, E, I, O, U with short sounds",
+      "examples": ["apple", "egg", "ice", "orange", "umbrella"]
+    },
+    {
+      "id": "consonant-blends",
+      "title": "Consonant Blends",
+      "description": "Two consonants together",
+      "examples": ["bl (blue)", "br (brown)", "cr (cry)", "dr (drum)"]
+    },
+    {
+      "id": "cvc-words",
+      "title": "CVC Words",
+      "description": "Consonant-Vowel-Consonant words",
+      "examples": ["cat", "dog", "sit", "hot", "run"]
+    },
+    {
+      "id": "word-families",
+      "title": "Word Families",
+      "description": "Words that rhyme and share endings",
+      "examples": ["-at (cat, bat, mat)", "-et (pet, set, wet)"]
+    }
+  ]
+}
