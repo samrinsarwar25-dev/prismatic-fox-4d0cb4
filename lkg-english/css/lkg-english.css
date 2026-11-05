@@ -1,0 +1,256 @@
+/* LKG English App Main Stylesheet */
+/* Color system, typography, and responsive utilities */
+
+:root {
+  --navy: #26335a;
+  --navy-2: #34457a;
+  --gold: #f5b942;
+  --cream: #fffaf0;
+  --paper: #ffffff;
+  --pink: #e0607a;
+  --teal: #2f9aa3;
+  --ink: #26335a;
+  --muted: #5e6783;
+  --line: #eadfc8;
+  --radius: 20px;
+  --lime: #7FBF4D;
+  --warm-orange: #FF9500;
+  --purple: #9B59B6;
+  --light-blue: #3498DB;
+}
+
+/* Typography Utilities */
+.text-navy { color: var(--navy); }
+.text-pink { color: var(--pink); }
+.text-teal { color: var(--teal); }
+.text-muted { color: var(--muted); }
+.text-white { color: white; }
+
+.text-bold { font-weight: 700; }
+.text-small { font-size: 0.9rem; }
+.text-large { font-size: 1.2rem; }
+
+/* Responsive Utilities */
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: 760px) {
+  .hide-mobile {
+    display: block;
+  }
+  .hide-desktop {
+    display: none;
+  }
+}
+
+/* Spacing Utilities */
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mt-4 { margin-top: 32px; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }
+.mb-4 { margin-bottom: 32px; }
+
+.p-1 { padding: 8px; }
+.p-2 { padding: 16px; }
+.p-3 { padding: 24px; }
+.p-4 { padding: 32px; }
+
+/* Flexbox Utilities */
+.flex { display: flex; }
+.flex-center { display: flex; align-items: center; justify-content: center; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.flex-column { display: flex; flex-direction: column; }
+.gap-1 { gap: 8px; }
+.gap-2 { gap: 16px; }
+.gap-3 { gap: 24px; }
+
+/* Grid Utilities */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 760px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Shadow Utilities */
+.shadow-sm {
+  box-shadow: 0 4px 12px -6px rgba(38, 51, 90, 0.3);
+}
+
+.shadow-md {
+  box-shadow: 0 10px 26px -20px rgba(38, 51, 90, 0.5);
+}
+
+.shadow-lg {
+  box-shadow: 0 14px 32px -18px rgba(38, 51, 90, 0.6);
+}
+
+/* Border Utilities */
+.border-1 {
+  border: 1px solid var(--line);
+}
+
+.border-2 {
+  border: 2px solid var(--line);
+}
+
+.rounded {
+  border-radius: var(--radius);
+}
+
+.rounded-sm {
+  border-radius: 10px;
+}
+
+.rounded-lg {
+  border-radius: 24px;
+}
+
+/* Visibility */
+.hidden {
+  display: none !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Container Styles */
+.container {
+  width: min(1100px, 100% - 32px);
+  margin-inline: auto;
+}
+
+/* Card Styles - Base */
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-md);
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes celebrate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-slide {
+  animation: slideIn 0.4s ease-out;
+}
+
+.animate-bounce {
+  animation: bounce 0.8s ease-in-out infinite;
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.animate-celebrate {
+  animation: celebrate 0.6s ease-in-out;
+}
+
+/* Responsive Typography */
+h1 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+}
+
+h2 {
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+}
+
+h3 {
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+/* Focus States for Accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  header, footer, nav {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
