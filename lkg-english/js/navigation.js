@@ -123,3 +123,57 @@ if (typeof window !== 'undefined') {
     celebrateAchievement
   };
 }
+
+/**
+ * Change Roko's expression
+ */
+function changeRokoExpression(expression) {
+  const rokoImg = document.getElementById('roko-mascot');
+  if (rokoImg) {
+    const expressions = {
+      'happy': '../img/lkg-mascot/roko-happy.svg',
+      'encouraging': '../img/lkg-mascot/roko-encouraging.svg',
+      'celebrating': '../img/lkg-mascot/roko-celebrating.svg',
+      'thinking': '../img/lkg-mascot/roko-thinking.svg',
+      'sad': '../img/lkg-mascot/roko-sad.svg',
+      'neutral': '../img/lkg-mascot/roko-neutral.svg'
+    };
+    
+    if (expressions[expression]) {
+      rokoImg.style.animation = 'none';
+      setTimeout(() => {
+        rokoImg.src = expressions[expression];
+        rokoImg.style.animation = 'slideIn 0.4s ease-out';
+      }, 10);
+    }
+  }
+}
+
+/**
+ * Roko reacts to page events
+ */
+function rokoReact(event) {
+  switch(event) {
+    case 'welcome':
+      changeRokoExpression('happy');
+      setTimeout(() => changeRokoExpression('encouraging'), 2000);
+      break;
+    case 'success':
+      changeRokoExpression('celebrating');
+      celebrateAchievement();
+      setTimeout(() => changeRokoExpression('happy'), 2000);
+      break;
+    case 'thinking':
+      changeRokoExpression('thinking');
+      break;
+    case 'help':
+      changeRokoExpression('encouraging');
+      break;
+    case 'error':
+      changeRokoExpression('sad');
+      setTimeout(() => changeRokoExpression('encouraging'), 2000);
+      break;
+    default:
+      changeRokoExpression('neutral');
+  }
+}

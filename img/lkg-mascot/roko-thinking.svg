@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.roko-skin { fill: #FFB6C1; stroke: #FF69B4; stroke-width: 2; } .roko-feature { fill: #26335a; } .roko-blush { fill: #FFB6C1; opacity: 0.6; } .roko-eye-white { fill: #ffffff; stroke: #26335a; stroke-width: 1.5; } .roko-eye-pupil { fill: #26335a; }</style></defs>
+  <circle cx="100" cy="60" r="45" class="roko-skin"/>
+  <circle cx="65" cy="25" r="18" class="roko-skin"/>
+  <circle cx="135" cy="25" r="18" class="roko-skin"/>
+  <circle cx="65" cy="25" r="10" class="roko-blush"/>
+  <circle cx="135" cy="25" r="10" class="roko-blush"/>
+  <ellipse cx="100" cy="140" rx="38" ry="50" class="roko-skin"/>
+  <ellipse cx="65" cy="130" rx="14" ry="40" class="roko-skin" transform="rotate(-25 65 130)"/>
+  <!-- Thinking hand on chin -->
+  <ellipse cx="135" cy="130" rx="14" ry="40" class="roko-skin" transform="rotate(25 135 130)"/>
+  <circle cx="50" cy="160" r="12" class="roko-skin"/>
+  <circle cx="150" cy="160" r="12" class="roko-skin" transform="translate(0, -30)"/>
+  <ellipse cx="85" cy="195" rx="12" ry="16" class="roko-skin"/>
+  <ellipse cx="115" cy="195" rx="12" ry="16" class="roko-skin"/>
+  <!-- Thinking eyes - looking up -->
+  <circle cx="82" cy="45" r="8" class="roko-eye-white"/>
+  <circle cx="82" cy="47" r="5" class="roko-eye-pupil"/>
+  <circle cx="118" cy="45" r="8" class="roko-eye-white"/>
+  <circle cx="118" cy="47" r="5" class="roko-eye-pupil"/>
+  <path d="M 100 55 L 97 62 L 103 62 Z" class="roko-feature"/>
+  <!-- Neutral/thoughtful expression -->
+  <path d="M 90 73 Q 100 75 110 73" stroke="#26335a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="70" cy="60" r="6" class="roko-blush"/>
+  <circle cx="130" cy="60" r="6" class="roko-blush"/>
+  <!-- Thinking bubble -->
+  <circle cx="155" cy="30" r="8" stroke="#26335a" stroke-width="1.5" fill="none"/>
+  <circle cx="147" cy="42" r="5" stroke="#26335a" stroke-width="1.5" fill="none"/>
+  <circle cx="140" cy="52" r="3" stroke="#26335a" stroke-width="1.5" fill="none"/>
+  <circle cx="100" cy="145" r="8" class="roko-blush"/>
+</svg>
