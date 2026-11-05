@@ -39,8 +39,9 @@
 
 .btn:hover:not(:disabled) {
   background: var(--navy-2);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(38, 51, 90, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(38, 51, 90, 0.3);
+  animation: bounceSmall 0.4s ease-out;
 }
 
 .btn:active:not(:disabled) {
@@ -134,6 +135,8 @@
 
 .card:hover {
   box-shadow: 0 14px 32px -18px rgba(38, 51, 90, 0.6);
+  transform: translateY(-4px);
+  animation: slideIn 0.3s ease-out;
 }
 
 .card-header {
@@ -416,6 +419,14 @@ label {
   .btn {
     width: 100%;
     justify-content: center;
+    min-height: 48px;
+    font-size: 1rem;
+  }
+
+  .btn-large {
+    padding: 14px 20px;
+    font-size: 1rem;
+    min-height: 52px;
   }
 
   input[type="text"],
@@ -423,6 +434,53 @@ label {
   textarea,
   select {
     font-size: 16px; /* Prevent zoom on iOS */
+    padding: 14px;
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
+  }
+
+  h3 {
+    font-size: clamp(1rem, 3vw, 1.4rem);
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .btn {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    min-height: 44px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .alert {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  label {
+    font-size: 0.95rem;
   }
 }
 
