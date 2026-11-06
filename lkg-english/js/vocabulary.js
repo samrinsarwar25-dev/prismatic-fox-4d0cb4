@@ -254,10 +254,12 @@ const vocabularyModule = (function() {
     `;
 
     // Add styles
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = './css/vocabulary.css';
-    document.head.appendChild(link);
+    if (!document.querySelector('link[href="./css/vocabulary.css"]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = './css/vocabulary.css';
+      document.head.appendChild(link);
+    }
 
     let currentIndex = 0;
 
@@ -269,31 +271,46 @@ const vocabularyModule = (function() {
       markWordViewed(word.id);
 
       const card = document.getElementById('word-card');
+      if (!card) return;
+
       card.innerHTML = `
         <div class="vocab-illustration">${word.emoji}</div>
         <div class="vocab-word">${word.word}</div>
         <div class="vocab-pronunciation">/${word.pronunciation}/</div>
-        <button class="audio-btn" onclick="speakWord('${word.word}')">🔊</button>
+        <button class="audio-btn" id="audio-btn">🔊</button>
         <div class="vocab-meaning">${word.meaning}</div>
         <div class="vocab-sentence">"${word.sentence}"</div>
       `;
+
+      // Add audio button listener
+      document.getElementById('audio-btn').addEventListener('click', () => {
+        speakWord(word.word);
+      });
 
       document.getElementById('word-counter').textContent = index + 1;
 
       const navBtns = document.getElementById('nav-buttons');
       navBtns.innerHTML = `
-        <button class="vocab-nav-btn" ${index === 0 ? 'disabled' : ''} onclick="prevWord()">← Previous</button>
+        <button class="vocab-nav-btn" id="prev-btn" ${index === 0 ? 'disabled' : ''}>← Previous</button>
         <a href="./vocabulary.html?category=${categoryId}&activity=listen-find" class="vocab-nav-btn vocab-nav-btn-secondary">🎮 Play</a>
-        <button class="vocab-nav-btn" ${index === words.length - 1 ? 'disabled' : ''} onclick="nextWord()">Next →</button>
+        <button class="vocab-nav-btn" id="next-btn" ${index === words.length - 1 ? 'disabled' : ''}>Next →</button>
       `;
+
+      if (index > 0) {
+        document.getElementById('prev-btn').addEventListener('click', () => displayWord(currentIndex - 1));
+      }
+
+      if (index < words.length - 1) {
+        document.getElementById('next-btn').addEventListener('click', () => displayWord(currentIndex + 1));
+      }
 
       rokoReact('thinking');
     }
 
-    window.nextWord = () => displayWord(currentIndex + 1);
-    window.prevWord = () => displayWord(currentIndex - 1);
+    // Make functions globally available
     window.speakWord = speakWord;
     window.rokoReact = rokoReact;
+    window.displayWord = displayWord;
 
     displayWord(0);
   }
@@ -627,6 +644,9 @@ const vocabularyModule = (function() {
 
   // Helper to create activity page structure
   function createActivityPage(activityName, categoryId, onReady) {
+    const categoryObj = vocabularyData.categories.find(c => c.id === categoryId);
+    const categoryName = categoryObj ? categoryObj.name : 'Category';
+
     document.body.innerHTML = `
       <header>
         <div class="wrap header-bar">
@@ -636,7 +656,11 @@ const vocabularyModule = (function() {
       </header>
       <main>
         <div class="wrap">
-          <div id="activity-content"></div>
+          <div id="activity-content">
+            <div class="activity-container">
+              <div class="activity-instruction">Loading activity...</div>
+            </div>
+          </div>
         </div>
       </main>
       <footer>
@@ -646,15 +670,23 @@ const vocabularyModule = (function() {
       </footer>
     `;
 
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = './css/vocabulary.css';
-    document.head.appendChild(link);
+    // Ensure CSS is loaded
+    if (!document.querySelector('link[href="./css/vocabulary.css"]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = './css/vocabulary.css';
+      document.head.appendChild(link);
+    }
 
+    // Make critical functions globally available
     window.speakWord = speakWord;
     window.rokoReact = rokoReact;
+    window.vocabularyModule = vocabularyModule;
 
-    if (onReady) onReady();
+    // Delay to ensure DOM is ready
+    setTimeout(() => {
+      if (onReady) onReady();
+    }, 10);
   }
 
   // Show activity completion result
