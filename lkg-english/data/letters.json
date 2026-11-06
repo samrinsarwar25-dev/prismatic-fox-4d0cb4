@@ -89,6 +89,150 @@
       "words": ["Jump", "Jellyfish", "Jet", "Jar", "Jigsaw"],
       "description": "Like I but with a hook at the bottom",
       "funFact": "J jumps with a hook! 🦘"
+    },
+    {
+      "id": "K",
+      "uppercase": "K",
+      "lowercase": "k",
+      "sound": "/k/ (like 'kite')",
+      "words": ["Kite", "Key", "King", "Kitten", "Kangaroo"],
+      "description": "A line with two legs",
+      "funFact": "K looks like a person kicking! 🦘"
+    },
+    {
+      "id": "L",
+      "uppercase": "L",
+      "lowercase": "l",
+      "sound": "/l/ (like 'lion')",
+      "words": ["Lion", "Lamp", "Leaf", "Leg", "Lollipop"],
+      "description": "A tall line with a foot",
+      "funFact": "L stands tall like a lion! 🦁"
+    },
+    {
+      "id": "M",
+      "uppercase": "M",
+      "lowercase": "m",
+      "sound": "/m/ (like 'monkey')",
+      "words": ["Monkey", "Moon", "Milk", "Mouse", "Mountain"],
+      "description": "Two bumps on a stick",
+      "funFact": "M has mountain peaks! 🏔️"
+    },
+    {
+      "id": "N",
+      "uppercase": "N",
+      "lowercase": "n",
+      "sound": "/n/ (like 'nose')",
+      "words": ["Nose", "Nest", "Nut", "Net", "Noodle"],
+      "description": "Two lines with a bridge",
+      "funFact": "N has a nose bridge! 👃"
+    },
+    {
+      "id": "O",
+      "uppercase": "O",
+      "lowercase": "o",
+      "sound": "/oʊ/ (like 'orange')",
+      "words": ["Orange", "Owl", "Octopus", "Olive", "Ocean"],
+      "description": "A perfect circle",
+      "funFact": "O is perfectly round! 🍊"
+    },
+    {
+      "id": "P",
+      "uppercase": "P",
+      "lowercase": "p",
+      "sound": "/p/ (like 'pig')",
+      "words": ["Pig", "Penguin", "Panda", "Pumpkin", "Piano"],
+      "description": "A stick with a bump on top",
+      "funFact": "P looks like a pig's snout! 🐷"
+    },
+    {
+      "id": "Q",
+      "uppercase": "Q",
+      "lowercase": "q",
+      "sound": "/kw/ (like 'queen')",
+      "words": ["Queen", "Quilt", "Quiet", "Quarter", "Quack"],
+      "description": "O with a fancy tail",
+      "funFact": "Q is like O with a royal tail! 👑"
+    },
+    {
+      "id": "R",
+      "uppercase": "R",
+      "lowercase": "r",
+      "sound": "/r/ (like 'rabbit')",
+      "words": ["Rabbit", "Rainbow", "Robot", "Ring", "Rocket"],
+      "description": "P with a leg",
+      "funFact": "R runs with a long leg! 🐰"
+    },
+    {
+      "id": "S",
+      "uppercase": "S",
+      "lowercase": "s",
+      "sound": "/s/ (like 'snake')",
+      "words": ["Snake", "Sun", "Star", "Smile", "Soap"],
+      "description": "A wiggly snake shape",
+      "funFact": "S wiggles like a snake! 🐍"
+    },
+    {
+      "id": "T",
+      "uppercase": "T",
+      "lowercase": "t",
+      "sound": "/t/ (like 'tiger')",
+      "words": ["Tiger", "Tree", "Toy", "Table", "Turtle"],
+      "description": "A cross or T-shape",
+      "funFact": "T is like a tiger's stripes! 🐯"
+    },
+    {
+      "id": "U",
+      "uppercase": "U",
+      "lowercase": "u",
+      "sound": "/ʌ/ (like 'umbrella')",
+      "words": ["Umbrella", "Up", "Upset", "Universe", "Ugly"],
+      "description": "A cup shape",
+      "funFact": "U holds things like a cup! ☕"
+    },
+    {
+      "id": "V",
+      "uppercase": "V",
+      "lowercase": "v",
+      "sound": "/v/ (like 'violin')",
+      "words": ["Violin", "Volcano", "Van", "Vegetable", "Village"],
+      "description": "Two lines meeting at a point",
+      "funFact": "V is like a valley! 🏔️"
+    },
+    {
+      "id": "W",
+      "uppercase": "W",
+      "lowercase": "w",
+      "sound": "/w/ (like 'water')",
+      "words": ["Water", "Watermelon", "Whale", "Window", "Witch"],
+      "description": "Two V's together",
+      "funFact": "W is like two waves! 🌊"
+    },
+    {
+      "id": "X",
+      "uppercase": "X",
+      "lowercase": "x",
+      "sound": "/ks/ (like 'box')",
+      "words": ["Box", "Fox", "Xylophone", "Taxi", "Exam"],
+      "description": "Two lines crossing",
+      "funFact": "X marks the spot! ❌"
+    },
+    {
+      "id": "Y",
+      "uppercase": "Y",
+      "lowercase": "y",
+      "sound": "/j/ or /aɪ/ (like 'yes' or 'yo-yo')",
+      "words": ["Yo-yo", "Yellow", "Yarn", "Year", "Yawning"],
+      "description": "Two lines meeting at a point with a tail",
+      "funFact": "Y asks 'Why?' 🤔"
+    },
+    {
+      "id": "Z",
+      "uppercase": "Z",
+      "lowercase": "z",
+      "sound": "/z/ (like 'zebra')",
+      "words": ["Zebra", "Zipper", "Zero", "Zone", "Zigzag"],
+      "description": "Three lines making a Z",
+      "funFact": "Z zigzags like a zebra! 🦓"
     }
   ],
   "phonics": [
