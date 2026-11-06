@@ -1,0 +1,1179 @@
+{
+  "categories": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "icon": "🦁",
+      "color": "#FF9500",
+      "description": "Learn about wild and domestic animals"
+    },
+    {
+      "id": "birds",
+      "name": "Birds",
+      "icon": "🦜",
+      "color": "#E0607A",
+      "description": "Discover beautiful flying birds"
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "icon": "🍎",
+      "color": "#7FBF4D",
+      "description": "Healthy and delicious fruits"
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "icon": "🥕",
+      "color": "#FF9500",
+      "description": "Nutritious vegetables for health"
+    },
+    {
+      "id": "colours",
+      "name": "Colours",
+      "icon": "🎨",
+      "color": "#9B59B6",
+      "description": "Rainbow of beautiful colours"
+    },
+    {
+      "id": "shapes",
+      "name": "Shapes",
+      "icon": "▲",
+      "color": "#3498DB",
+      "description": "Basic geometric shapes"
+    },
+    {
+      "id": "body-parts",
+      "name": "Body Parts",
+      "icon": "👋",
+      "color": "#F5B942",
+      "description": "Parts of our body"
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "icon": "👨‍👩‍👧‍👦",
+      "color": "#E0607A",
+      "description": "Family members we love"
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "icon": "🍕",
+      "color": "#FF9500",
+      "description": "Tasty food we eat"
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "icon": "🚗",
+      "color": "#3498DB",
+      "description": "Vehicles we travel in"
+    },
+    {
+      "id": "household",
+      "name": "Household",
+      "icon": "🪑",
+      "color": "#7FBF4D",
+      "description": "Things in our home"
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "icon": "🌳",
+      "color": "#2F9AA3",
+      "description": "Beautiful nature around us"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "animal-lion",
+      "word": "Lion",
+      "category": "animals",
+      "pronunciation": "LY-un",
+      "meaning": "A large wild cat with a thick mane.",
+      "sentence": "The lion is the king of animals.",
+      "emoji": "🦁"
+    },
+    {
+      "id": "animal-tiger",
+      "word": "Tiger",
+      "category": "animals",
+      "pronunciation": "TY-ger",
+      "meaning": "A big wild cat with orange and black stripes.",
+      "sentence": "The tiger has beautiful stripes.",
+      "emoji": "🐯"
+    },
+    {
+      "id": "animal-elephant",
+      "word": "Elephant",
+      "category": "animals",
+      "pronunciation": "EL-uh-funt",
+      "meaning": "A very large animal with a long trunk.",
+      "sentence": "The elephant is very smart.",
+      "emoji": "🐘"
+    },
+    {
+      "id": "animal-giraffe",
+      "word": "Giraffe",
+      "category": "animals",
+      "pronunciation": "juh-RAF",
+      "meaning": "A tall animal with a very long neck.",
+      "sentence": "The giraffe eats from tall trees.",
+      "emoji": "🦒"
+    },
+    {
+      "id": "animal-zebra",
+      "word": "Zebra",
+      "category": "animals",
+      "pronunciation": "ZEB-ruh",
+      "meaning": "A wild animal with black and white stripes.",
+      "sentence": "The zebra has striped skin.",
+      "emoji": "🦓"
+    },
+    {
+      "id": "animal-monkey",
+      "word": "Monkey",
+      "category": "animals",
+      "pronunciation": "MUN-kee",
+      "meaning": "A clever animal that climbs trees and swings.",
+      "sentence": "The monkey jumps and plays.",
+      "emoji": "🐵"
+    },
+    {
+      "id": "animal-rabbit",
+      "word": "Rabbit",
+      "category": "animals",
+      "pronunciation": "RAB-it",
+      "meaning": "A small furry animal with long ears.",
+      "sentence": "The rabbit hops very fast.",
+      "emoji": "🐰"
+    },
+    {
+      "id": "animal-dog",
+      "word": "Dog",
+      "category": "animals",
+      "pronunciation": "DAW-g",
+      "meaning": "A friendly pet animal that barks.",
+      "sentence": "The dog wags its tail.",
+      "emoji": "🐕"
+    },
+    {
+      "id": "animal-cat",
+      "word": "Cat",
+      "category": "animals",
+      "pronunciation": "KAT",
+      "meaning": "A soft pet animal that meows.",
+      "sentence": "The cat likes to sleep.",
+      "emoji": "🐱"
+    },
+    {
+      "id": "animal-cow",
+      "word": "Cow",
+      "category": "animals",
+      "pronunciation": "KOW",
+      "meaning": "A big farm animal that gives milk.",
+      "sentence": "The cow eats grass.",
+      "emoji": "🐄"
+    },
+    {
+      "id": "animal-horse",
+      "word": "Horse",
+      "category": "animals",
+      "pronunciation": "HORS",
+      "meaning": "A large animal with a long tail that people can ride.",
+      "sentence": "The horse runs very fast.",
+      "emoji": "🐴"
+    },
+    {
+      "id": "animal-goat",
+      "word": "Goat",
+      "category": "animals",
+      "pronunciation": "GOHT",
+      "meaning": "A small farm animal with horns.",
+      "sentence": "The goat jumps high.",
+      "emoji": "🐐"
+    },
+    {
+      "id": "animal-sheep",
+      "word": "Sheep",
+      "category": "animals",
+      "pronunciation": "SHEEP",
+      "meaning": "A fluffy farm animal that says 'baa'.",
+      "sentence": "The sheep has white wool.",
+      "emoji": "🐑"
+    },
+    {
+      "id": "animal-bear",
+      "word": "Bear",
+      "category": "animals",
+      "pronunciation": "BAIR",
+      "meaning": "A big, strong wild animal.",
+      "sentence": "The bear is very strong.",
+      "emoji": "🐻"
+    },
+    {
+      "id": "animal-deer",
+      "word": "Deer",
+      "category": "animals",
+      "pronunciation": "DEER",
+      "meaning": "A graceful wild animal with horns.",
+      "sentence": "The deer runs through the forest.",
+      "emoji": "🦌"
+    },
+    {
+      "id": "bird-parrot",
+      "word": "Parrot",
+      "category": "birds",
+      "pronunciation": "PAR-ut",
+      "meaning": "A colorful bird that can talk.",
+      "sentence": "The parrot repeats words.",
+      "emoji": "🦜"
+    },
+    {
+      "id": "bird-peacock",
+      "word": "Peacock",
+      "category": "birds",
+      "pronunciation": "PEE-cock",
+      "meaning": "A beautiful bird with colorful feathers.",
+      "sentence": "The peacock is very pretty.",
+      "emoji": "🦚"
+    },
+    {
+      "id": "bird-sparrow",
+      "word": "Sparrow",
+      "category": "birds",
+      "pronunciation": "SPAR-oh",
+      "meaning": "A small brown bird that chirps.",
+      "sentence": "The sparrow sings in the morning.",
+      "emoji": "🐦"
+    },
+    {
+      "id": "bird-crow",
+      "word": "Crow",
+      "category": "birds",
+      "pronunciation": "KROH",
+      "meaning": "A black bird that says 'caw'.",
+      "sentence": "The crow is very smart.",
+      "emoji": "🐦"
+    },
+    {
+      "id": "bird-pigeon",
+      "word": "Pigeon",
+      "category": "birds",
+      "pronunciation": "PIJ-un",
+      "meaning": "A gray bird that coos.",
+      "sentence": "The pigeon lives in the city.",
+      "emoji": "🕊️"
+    },
+    {
+      "id": "bird-duck",
+      "word": "Duck",
+      "category": "birds",
+      "pronunciation": "DUK",
+      "meaning": "A water bird that quacks.",
+      "sentence": "The duck swims in the pond.",
+      "emoji": "🦆"
+    },
+    {
+      "id": "bird-hen",
+      "word": "Hen",
+      "category": "birds",
+      "pronunciation": "HEN",
+      "meaning": "A farm bird that clucks.",
+      "sentence": "The hen lays eggs.",
+      "emoji": "🐔"
+    },
+    {
+      "id": "bird-rooster",
+      "word": "Rooster",
+      "category": "birds",
+      "pronunciation": "ROOS-ter",
+      "meaning": "A male farm bird that crows.",
+      "sentence": "The rooster wakes us up.",
+      "emoji": "🐓"
+    },
+    {
+      "id": "bird-owl",
+      "word": "Owl",
+      "category": "birds",
+      "pronunciation": "OWL",
+      "meaning": "A bird that sees at night.",
+      "sentence": "The owl is very wise.",
+      "emoji": "🦉"
+    },
+    {
+      "id": "bird-eagle",
+      "word": "Eagle",
+      "category": "birds",
+      "pronunciation": "EE-gul",
+      "meaning": "A big bird that flies high.",
+      "sentence": "The eagle catches fish.",
+      "emoji": "🦅"
+    },
+    {
+      "id": "fruit-apple",
+      "word": "Apple",
+      "category": "fruits",
+      "pronunciation": "AP-ul",
+      "meaning": "A round red or green fruit.",
+      "sentence": "I eat an apple every day.",
+      "emoji": "🍎"
+    },
+    {
+      "id": "fruit-banana",
+      "word": "Banana",
+      "category": "fruits",
+      "pronunciation": "buh-NAN-uh",
+      "meaning": "A long yellow fruit.",
+      "sentence": "The banana is soft and sweet.",
+      "emoji": "🍌"
+    },
+    {
+      "id": "fruit-mango",
+      "word": "Mango",
+      "category": "fruits",
+      "pronunciation": "MAN-goh",
+      "meaning": "A sweet orange fruit.",
+      "sentence": "The mango is the king of fruits.",
+      "emoji": "🥭"
+    },
+    {
+      "id": "fruit-orange",
+      "word": "Orange",
+      "category": "fruits",
+      "pronunciation": "OR-inj",
+      "meaning": "A round orange fruit with juice.",
+      "sentence": "Orange juice is healthy.",
+      "emoji": "🍊"
+    },
+    {
+      "id": "fruit-grapes",
+      "word": "Grapes",
+      "category": "fruits",
+      "pronunciation": "GRAYPS",
+      "meaning": "Small round fruits on a vine.",
+      "sentence": "I like eating grapes.",
+      "emoji": "🍇"
+    },
+    {
+      "id": "fruit-watermelon",
+      "word": "Watermelon",
+      "category": "fruits",
+      "pronunciation": "WA-ter-mel-un",
+      "meaning": "A big juicy fruit with red inside.",
+      "sentence": "Watermelon is cool and sweet.",
+      "emoji": "🍉"
+    },
+    {
+      "id": "fruit-papaya",
+      "word": "Papaya",
+      "category": "fruits",
+      "pronunciation": "puh-PY-uh",
+      "meaning": "A soft orange fruit.",
+      "sentence": "Papaya helps digestion.",
+      "emoji": "🧡"
+    },
+    {
+      "id": "fruit-pineapple",
+      "word": "Pineapple",
+      "category": "fruits",
+      "pronunciation": "PYN-ap-ul",
+      "meaning": "A spiky yellow fruit.",
+      "sentence": "Pineapple is tropical.",
+      "emoji": "🍍"
+    },
+    {
+      "id": "fruit-guava",
+      "word": "Guava",
+      "category": "fruits",
+      "pronunciation": "GWAH-vuh",
+      "meaning": "A green fruit with small seeds.",
+      "sentence": "Guava has vitamin C.",
+      "emoji": "🟢"
+    },
+    {
+      "id": "fruit-strawberry",
+      "word": "Strawberry",
+      "category": "fruits",
+      "pronunciation": "STRAW-ber-ee",
+      "meaning": "A small red fruit.",
+      "sentence": "Strawberry is sweet and delicious.",
+      "emoji": "🍓"
+    },
+    {
+      "id": "vegetable-potato",
+      "word": "Potato",
+      "category": "vegetables",
+      "pronunciation": "puh-TAY-toh",
+      "meaning": "A brown root vegetable.",
+      "sentence": "We cook potato.",
+      "emoji": "🥔"
+    },
+    {
+      "id": "vegetable-tomato",
+      "word": "Tomato",
+      "category": "vegetables",
+      "pronunciation": "tuh-MAH-toh",
+      "meaning": "A round red vegetable.",
+      "sentence": "Tomato is used in curry.",
+      "emoji": "🍅"
+    },
+    {
+      "id": "vegetable-onion",
+      "word": "Onion",
+      "category": "vegetables",
+      "pronunciation": "UN-yun",
+      "meaning": "A white or red vegetable with layers.",
+      "sentence": "Onion makes us cry.",
+      "emoji": "🧅"
+    },
+    {
+      "id": "vegetable-carrot",
+      "word": "Carrot",
+      "category": "vegetables",
+      "pronunciation": "KAR-ut",
+      "meaning": "An orange vegetable that is sweet.",
+      "sentence": "Carrot is good for eyes.",
+      "emoji": "🥕"
+    },
+    {
+      "id": "vegetable-cabbage",
+      "word": "Cabbage",
+      "category": "vegetables",
+      "pronunciation": "KAB-ij",
+      "meaning": "A round green vegetable.",
+      "sentence": "Cabbage is healthy.",
+      "emoji": "🥬"
+    },
+    {
+      "id": "vegetable-cauliflower",
+      "word": "Cauliflower",
+      "category": "vegetables",
+      "pronunciation": "KAW-li-flow-er",
+      "meaning": "A white vegetable with small florets.",
+      "sentence": "Cauliflower tastes good.",
+      "emoji": "🥦"
+    },
+    {
+      "id": "vegetable-brinjal",
+      "word": "Brinjal",
+      "category": "vegetables",
+      "pronunciation": "BRIN-jal",
+      "meaning": "A purple vegetable also called eggplant.",
+      "sentence": "Brinjal is tasty.",
+      "emoji": "🟣"
+    },
+    {
+      "id": "vegetable-peas",
+      "word": "Peas",
+      "category": "vegetables",
+      "pronunciation": "PEEZ",
+      "meaning": "Small green round vegetables.",
+      "sentence": "I like eating peas.",
+      "emoji": "🟢"
+    },
+    {
+      "id": "vegetable-cucumber",
+      "word": "Cucumber",
+      "category": "vegetables",
+      "pronunciation": "KOO-cum-ber",
+      "meaning": "A long green vegetable.",
+      "sentence": "Cucumber is cool and crispy.",
+      "emoji": "🥒"
+    },
+    {
+      "id": "vegetable-pumpkin",
+      "word": "Pumpkin",
+      "category": "vegetables",
+      "pronunciation": "PUMP-kin",
+      "meaning": "A big orange vegetable.",
+      "sentence": "Pumpkin grows big.",
+      "emoji": "🎃"
+    },
+    {
+      "id": "colour-red",
+      "word": "Red",
+      "category": "colours",
+      "pronunciation": "RED",
+      "meaning": "A bright warm color like blood.",
+      "sentence": "The apple is red.",
+      "emoji": "🔴"
+    },
+    {
+      "id": "colour-blue",
+      "word": "Blue",
+      "category": "colours",
+      "pronunciation": "BLOO",
+      "meaning": "A cool color like the sky.",
+      "sentence": "The sky is blue.",
+      "emoji": "🔵"
+    },
+    {
+      "id": "colour-green",
+      "word": "Green",
+      "category": "colours",
+      "pronunciation": "GREEN",
+      "meaning": "A color like grass and leaves.",
+      "sentence": "The tree is green.",
+      "emoji": "🟢"
+    },
+    {
+      "id": "colour-yellow",
+      "word": "Yellow",
+      "category": "colours",
+      "pronunciation": "YEL-oh",
+      "meaning": "A bright color like the sun.",
+      "sentence": "The sun is yellow.",
+      "emoji": "🟡"
+    },
+    {
+      "id": "colour-orange",
+      "word": "Orange",
+      "category": "colours",
+      "pronunciation": "OR-inj",
+      "meaning": "A color between red and yellow.",
+      "sentence": "The carrot is orange.",
+      "emoji": "🟠"
+    },
+    {
+      "id": "colour-pink",
+      "word": "Pink",
+      "category": "colours",
+      "pronunciation": "PINK",
+      "meaning": "A light red color.",
+      "sentence": "The flower is pink.",
+      "emoji": "🩷"
+    },
+    {
+      "id": "colour-purple",
+      "word": "Purple",
+      "category": "colours",
+      "pronunciation": "PER-pul",
+      "meaning": "A color made from red and blue.",
+      "sentence": "The grape is purple.",
+      "emoji": "🟣"
+    },
+    {
+      "id": "colour-black",
+      "word": "Black",
+      "category": "colours",
+      "pronunciation": "BLACK",
+      "meaning": "The darkest color.",
+      "sentence": "The crow is black.",
+      "emoji": "⚫"
+    },
+    {
+      "id": "colour-white",
+      "word": "White",
+      "category": "colours",
+      "pronunciation": "WHITE",
+      "meaning": "The lightest color.",
+      "sentence": "Snow is white.",
+      "emoji": "⚪"
+    },
+    {
+      "id": "colour-brown",
+      "word": "Brown",
+      "category": "colours",
+      "pronunciation": "BROWN",
+      "meaning": "A dark color like earth.",
+      "sentence": "The tree is brown.",
+      "emoji": "🟤"
+    },
+    {
+      "id": "shape-circle",
+      "word": "Circle",
+      "category": "shapes",
+      "pronunciation": "SER-kul",
+      "meaning": "A round shape like a ball.",
+      "sentence": "The ball is a circle.",
+      "emoji": "⭕"
+    },
+    {
+      "id": "shape-square",
+      "word": "Square",
+      "category": "shapes",
+      "pronunciation": "SKWAIR",
+      "meaning": "A shape with four equal sides.",
+      "sentence": "The box is a square.",
+      "emoji": "◼️"
+    },
+    {
+      "id": "shape-triangle",
+      "word": "Triangle",
+      "category": "shapes",
+      "pronunciation": "TRY-ang-ul",
+      "meaning": "A shape with three sides.",
+      "sentence": "The roof is a triangle.",
+      "emoji": "▲"
+    },
+    {
+      "id": "shape-rectangle",
+      "word": "Rectangle",
+      "category": "shapes",
+      "pronunciation": "REK-tang-gul",
+      "meaning": "A shape with four sides and long corners.",
+      "sentence": "The door is a rectangle.",
+      "emoji": "▭"
+    },
+    {
+      "id": "shape-oval",
+      "word": "Oval",
+      "category": "shapes",
+      "pronunciation": "OH-vul",
+      "meaning": "A round shape like an egg.",
+      "sentence": "The egg is an oval.",
+      "emoji": "🥚"
+    },
+    {
+      "id": "shape-star",
+      "word": "Star",
+      "category": "shapes",
+      "pronunciation": "STAR",
+      "meaning": "A shape with pointed rays.",
+      "sentence": "The star is in the sky.",
+      "emoji": "⭐"
+    },
+    {
+      "id": "shape-heart",
+      "word": "Heart",
+      "category": "shapes",
+      "pronunciation": "HART",
+      "meaning": "A shape that means love.",
+      "sentence": "I love you with all my heart.",
+      "emoji": "❤️"
+    },
+    {
+      "id": "shape-diamond",
+      "word": "Diamond",
+      "category": "shapes",
+      "pronunciation": "DY-mund",
+      "meaning": "A shape like a jewel.",
+      "sentence": "The diamond is shiny.",
+      "emoji": "💎"
+    },
+    {
+      "id": "body-head",
+      "word": "Head",
+      "category": "body-parts",
+      "pronunciation": "HED",
+      "meaning": "The top part of our body.",
+      "sentence": "I have a head.",
+      "emoji": "🗣️"
+    },
+    {
+      "id": "body-eyes",
+      "word": "Eyes",
+      "category": "body-parts",
+      "pronunciation": "YZ",
+      "meaning": "We use eyes to see.",
+      "sentence": "I have two eyes.",
+      "emoji": "👀"
+    },
+    {
+      "id": "body-ears",
+      "word": "Ears",
+      "category": "body-parts",
+      "pronunciation": "EERZ",
+      "meaning": "We use ears to hear.",
+      "sentence": "I have two ears.",
+      "emoji": "👂"
+    },
+    {
+      "id": "body-nose",
+      "word": "Nose",
+      "category": "body-parts",
+      "pronunciation": "NOHZ",
+      "meaning": "We use nose to smell.",
+      "sentence": "I have one nose.",
+      "emoji": "👃"
+    },
+    {
+      "id": "body-mouth",
+      "word": "Mouth",
+      "category": "body-parts",
+      "pronunciation": "MOUTH",
+      "meaning": "We use mouth to eat and talk.",
+      "sentence": "I have one mouth.",
+      "emoji": "👄"
+    },
+    {
+      "id": "body-teeth",
+      "word": "Teeth",
+      "category": "body-parts",
+      "pronunciation": "TEETH",
+      "meaning": "We use teeth to chew food.",
+      "sentence": "I have white teeth.",
+      "emoji": "😁"
+    },
+    {
+      "id": "body-hands",
+      "word": "Hands",
+      "category": "body-parts",
+      "pronunciation": "HANDZ",
+      "meaning": "We use hands to hold things.",
+      "sentence": "I have two hands.",
+      "emoji": "👐"
+    },
+    {
+      "id": "body-fingers",
+      "word": "Fingers",
+      "category": "body-parts",
+      "pronunciation": "FIN-gerz",
+      "meaning": "We have fingers on our hands.",
+      "sentence": "I have ten fingers.",
+      "emoji": "🖐️"
+    },
+    {
+      "id": "body-legs",
+      "word": "Legs",
+      "category": "body-parts",
+      "pronunciation": "LEGZ",
+      "meaning": "We use legs to walk.",
+      "sentence": "I have two legs.",
+      "emoji": "🦵"
+    },
+    {
+      "id": "body-feet",
+      "word": "Feet",
+      "category": "body-parts",
+      "pronunciation": "FEET",
+      "meaning": "We have feet at the end of legs.",
+      "sentence": "I have two feet.",
+      "emoji": "🦶"
+    },
+    {
+      "id": "family-mother",
+      "word": "Mother",
+      "category": "family",
+      "pronunciation": "MUTH-er",
+      "meaning": "Your mother is your parent.",
+      "sentence": "My mother loves me.",
+      "emoji": "👩"
+    },
+    {
+      "id": "family-father",
+      "word": "Father",
+      "category": "family",
+      "pronunciation": "FAH-ther",
+      "meaning": "Your father is your parent.",
+      "sentence": "My father is strong.",
+      "emoji": "👨"
+    },
+    {
+      "id": "family-brother",
+      "word": "Brother",
+      "category": "family",
+      "pronunciation": "BRUTH-er",
+      "meaning": "Your brother is a boy in your family.",
+      "sentence": "My brother is kind.",
+      "emoji": "👦"
+    },
+    {
+      "id": "family-sister",
+      "word": "Sister",
+      "category": "family",
+      "pronunciation": "SIS-ter",
+      "meaning": "Your sister is a girl in your family.",
+      "sentence": "My sister is nice.",
+      "emoji": "👧"
+    },
+    {
+      "id": "family-baby",
+      "word": "Baby",
+      "category": "family",
+      "pronunciation": "BAY-bee",
+      "meaning": "A very young person.",
+      "sentence": "The baby is cute.",
+      "emoji": "👶"
+    },
+    {
+      "id": "family-grandmother",
+      "word": "Grandmother",
+      "category": "family",
+      "pronunciation": "GRAND-muth-er",
+      "meaning": "Your mother's or father's mother.",
+      "sentence": "My grandmother tells stories.",
+      "emoji": "👵"
+    },
+    {
+      "id": "family-grandfather",
+      "word": "Grandfather",
+      "category": "family",
+      "pronunciation": "GRAND-fah-ther",
+      "meaning": "Your mother's or father's father.",
+      "sentence": "My grandfather is wise.",
+      "emoji": "👴"
+    },
+    {
+      "id": "family-family",
+      "word": "Family",
+      "category": "family",
+      "pronunciation": "FAM-uh-lee",
+      "meaning": "People you love and live with.",
+      "sentence": "My family is important.",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "id": "food-bread",
+      "word": "Bread",
+      "category": "food",
+      "pronunciation": "BRED",
+      "meaning": "A food made from flour.",
+      "sentence": "I eat bread for breakfast.",
+      "emoji": "🍞"
+    },
+    {
+      "id": "food-rice",
+      "word": "Rice",
+      "category": "food",
+      "pronunciation": "RYS",
+      "meaning": "Small white grains we cook.",
+      "sentence": "We eat rice every day.",
+      "emoji": "🍚"
+    },
+    {
+      "id": "food-milk",
+      "word": "Milk",
+      "category": "food",
+      "pronunciation": "MILK",
+      "meaning": "A white drink from cow.",
+      "sentence": "I drink milk every morning.",
+      "emoji": "🥛"
+    },
+    {
+      "id": "food-egg",
+      "word": "Egg",
+      "category": "food",
+      "pronunciation": "EG",
+      "meaning": "A food laid by birds.",
+      "sentence": "I eat an egg.",
+      "emoji": "🥚"
+    },
+    {
+      "id": "food-butter",
+      "word": "Butter",
+      "category": "food",
+      "pronunciation": "BUT-er",
+      "meaning": "A yellow dairy product.",
+      "sentence": "Butter on bread tastes good.",
+      "emoji": "🧈"
+    },
+    {
+      "id": "food-cheese",
+      "word": "Cheese",
+      "category": "food",
+      "pronunciation": "CHEEZ",
+      "meaning": "A food made from milk.",
+      "sentence": "I like cheese pizza.",
+      "emoji": "🧀"
+    },
+    {
+      "id": "food-cake",
+      "word": "Cake",
+      "category": "food",
+      "pronunciation": "KAYK",
+      "meaning": "A sweet baked dessert.",
+      "sentence": "Cake is sweet.",
+      "emoji": "🍰"
+    },
+    {
+      "id": "food-biscuit",
+      "word": "Biscuit",
+      "category": "food",
+      "pronunciation": "BIS-kit",
+      "meaning": "A hard cookie-like snack.",
+      "sentence": "I eat biscuits with tea.",
+      "emoji": "🍪"
+    },
+    {
+      "id": "food-juice",
+      "word": "Juice",
+      "category": "food",
+      "pronunciation": "JOOS",
+      "meaning": "A liquid from fruit.",
+      "sentence": "Orange juice is healthy.",
+      "emoji": "🧃"
+    },
+    {
+      "id": "food-ice-cream",
+      "word": "Ice Cream",
+      "category": "food",
+      "pronunciation": "YS KREEM",
+      "meaning": "A cold sweet frozen dessert.",
+      "sentence": "Ice cream is yummy.",
+      "emoji": "🍦"
+    },
+    {
+      "id": "transport-car",
+      "word": "Car",
+      "category": "transport",
+      "pronunciation": "KAR",
+      "meaning": "A vehicle with four wheels.",
+      "sentence": "We drive a car.",
+      "emoji": "🚗"
+    },
+    {
+      "id": "transport-bus",
+      "word": "Bus",
+      "category": "transport",
+      "pronunciation": "BUS",
+      "meaning": "A big vehicle that carries people.",
+      "sentence": "The bus is yellow.",
+      "emoji": "🚌"
+    },
+    {
+      "id": "transport-bicycle",
+      "word": "Bicycle",
+      "category": "transport",
+      "pronunciation": "BY-si-kul",
+      "meaning": "A vehicle with two wheels.",
+      "sentence": "I ride my bicycle.",
+      "emoji": "🚲"
+    },
+    {
+      "id": "transport-train",
+      "word": "Train",
+      "category": "transport",
+      "pronunciation": "TRAYN",
+      "meaning": "A long vehicle on tracks.",
+      "sentence": "The train goes fast.",
+      "emoji": "🚂"
+    },
+    {
+      "id": "transport-aeroplane",
+      "word": "Aeroplane",
+      "category": "transport",
+      "pronunciation": "AIR-oh-playn",
+      "meaning": "A vehicle that flies in the sky.",
+      "sentence": "The aeroplane flies high.",
+      "emoji": "✈️"
+    },
+    {
+      "id": "transport-boat",
+      "word": "Boat",
+      "category": "transport",
+      "pronunciation": "BOHT",
+      "meaning": "A vehicle on water.",
+      "sentence": "The boat floats.",
+      "emoji": "🚤"
+    },
+    {
+      "id": "transport-ship",
+      "word": "Ship",
+      "category": "transport",
+      "pronunciation": "SHIP",
+      "meaning": "A big boat for the ocean.",
+      "sentence": "The ship is big.",
+      "emoji": "⛴️"
+    },
+    {
+      "id": "transport-scooter",
+      "word": "Scooter",
+      "category": "transport",
+      "pronunciation": "SKOO-ter",
+      "meaning": "A small vehicle with two wheels.",
+      "sentence": "I ride a scooter.",
+      "emoji": "🛴"
+    },
+    {
+      "id": "transport-truck",
+      "word": "Truck",
+      "category": "transport",
+      "pronunciation": "TRUK",
+      "meaning": "A big vehicle for carrying things.",
+      "sentence": "The truck is heavy.",
+      "emoji": "🚚"
+    },
+    {
+      "id": "transport-helicopter",
+      "word": "Helicopter",
+      "category": "transport",
+      "pronunciation": "HEL-i-kop-ter",
+      "meaning": "A flying vehicle with blades.",
+      "sentence": "The helicopter flies fast.",
+      "emoji": "🚁"
+    },
+    {
+      "id": "household-chair",
+      "word": "Chair",
+      "category": "household",
+      "pronunciation": "CHAIR",
+      "meaning": "Furniture to sit on.",
+      "sentence": "I sit on the chair.",
+      "emoji": "🪑"
+    },
+    {
+      "id": "household-table",
+      "word": "Table",
+      "category": "household",
+      "pronunciation": "TAY-bul",
+      "meaning": "Furniture with a flat top.",
+      "sentence": "The table has four legs.",
+      "emoji": "🚪"
+    },
+    {
+      "id": "household-bed",
+      "word": "Bed",
+      "category": "household",
+      "pronunciation": "BED",
+      "meaning": "Furniture to sleep on.",
+      "sentence": "I sleep in my bed.",
+      "emoji": "🛏️"
+    },
+    {
+      "id": "household-door",
+      "word": "Door",
+      "category": "household",
+      "pronunciation": "DOR",
+      "meaning": "An opening to enter a room.",
+      "sentence": "Close the door.",
+      "emoji": "🚪"
+    },
+    {
+      "id": "household-window",
+      "word": "Window",
+      "category": "household",
+      "pronunciation": "WIN-doh",
+      "meaning": "An opening to see outside.",
+      "sentence": "Look out the window.",
+      "emoji": "🪟"
+    },
+    {
+      "id": "household-clock",
+      "word": "Clock",
+      "category": "household",
+      "pronunciation": "KLOK",
+      "meaning": "Something that shows time.",
+      "sentence": "The clock shows time.",
+      "emoji": "🕐"
+    },
+    {
+      "id": "household-spoon",
+      "word": "Spoon",
+      "category": "household",
+      "pronunciation": "SPOON",
+      "meaning": "A tool to eat with.",
+      "sentence": "I use a spoon.",
+      "emoji": "🥄"
+    },
+    {
+      "id": "household-plate",
+      "word": "Plate",
+      "category": "household",
+      "pronunciation": "PLAYT",
+      "meaning": "A dish to eat from.",
+      "sentence": "Food is on the plate.",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "household-cup",
+      "word": "Cup",
+      "category": "household",
+      "pronunciation": "KUP",
+      "meaning": "A container to drink from.",
+      "sentence": "I drink from a cup.",
+      "emoji": "☕"
+    },
+    {
+      "id": "household-fan",
+      "word": "Fan",
+      "category": "household",
+      "pronunciation": "FAN",
+      "meaning": "Something that cools us.",
+      "sentence": "The fan is cool.",
+      "emoji": "🌀"
+    },
+    {
+      "id": "nature-sun",
+      "word": "Sun",
+      "category": "nature",
+      "pronunciation": "SUN",
+      "meaning": "The bright star in the sky.",
+      "sentence": "The sun is hot.",
+      "emoji": "☀️"
+    },
+    {
+      "id": "nature-moon",
+      "word": "Moon",
+      "category": "nature",
+      "pronunciation": "MOON",
+      "meaning": "The bright object in the night sky.",
+      "sentence": "The moon is bright.",
+      "emoji": "🌙"
+    },
+    {
+      "id": "nature-stars",
+      "word": "Stars",
+      "category": "nature",
+      "pronunciation": "STARZ",
+      "meaning": "Tiny lights in the night sky.",
+      "sentence": "Stars twinkle.",
+      "emoji": "⭐"
+    },
+    {
+      "id": "nature-cloud",
+      "word": "Cloud",
+      "category": "nature",
+      "pronunciation": "KLOUD",
+      "meaning": "White fluffy thing in the sky.",
+      "sentence": "The cloud looks like cotton.",
+      "emoji": "☁️"
+    },
+    {
+      "id": "nature-rain",
+      "word": "Rain",
+      "category": "nature",
+      "pronunciation": "RAYN",
+      "meaning": "Water falling from sky.",
+      "sentence": "Rain waters the plants.",
+      "emoji": "🌧️"
+    },
+    {
+      "id": "nature-rainbow",
+      "word": "Rainbow",
+      "category": "nature",
+      "pronunciation": "RAYN-boh",
+      "meaning": "Colorful arc in the sky.",
+      "sentence": "The rainbow is beautiful.",
+      "emoji": "🌈"
+    },
+    {
+      "id": "nature-tree",
+      "word": "Tree",
+      "category": "nature",
+      "pronunciation": "TREE",
+      "meaning": "A big plant with branches.",
+      "sentence": "The tree is green.",
+      "emoji": "🌳"
+    },
+    {
+      "id": "nature-flower",
+      "word": "Flower",
+      "category": "nature",
+      "pronunciation": "FLOW-er",
+      "meaning": "A pretty plant with petals.",
+      "sentence": "The flower smells good.",
+      "emoji": "🌸"
+    },
+    {
+      "id": "nature-mountain",
+      "word": "Mountain",
+      "category": "nature",
+      "pronunciation": "MOUN-tun",
+      "meaning": "A very tall landform.",
+      "sentence": "The mountain is high.",
+      "emoji": "⛰️"
+    },
+    {
+      "id": "nature-river",
+      "word": "River",
+      "category": "nature",
+      "pronunciation": "RIV-er",
+      "meaning": "A long body of flowing water.",
+      "sentence": "The river flows.",
+      "emoji": "🌊"
+    }
+  ]
+}
